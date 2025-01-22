@@ -6,6 +6,26 @@
     <title>Vídeos Interessantes🍓 ̟</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo.jpg">
+    <style>
+        /* Estilo básico para os vídeos */
+        .video-container {
+            position: relative; /* Necessário para o efeito de transformação */
+            width: 560px;
+            height: 315px;
+            margin-bottom: 20px;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.4s ease; /* Transição suave no vídeo */
+        }
+
+        /* Efeito ao passar o mouse no vídeo */
+        .video-container:hover iframe {
+            transform: scale(1.1); /* Aumenta o tamanho do vídeo */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,26 +36,21 @@
         <section class="video-gallery">
             <div class="video-container">
                 <!-- Link do primeiro vídeo corrigido -->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/0WlaXB5EI1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               
+                <iframe src="https://www.youtube.com/embed/0WlaXB5EI1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="video-container">
                 <!-- Link do segundo vídeo corrigido -->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/QTQu2N5aK1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
+                <iframe src="https://www.youtube.com/embed/QTQu2N5aK1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="video-container">
                 <!-- Link do terceiro vídeo corrigido -->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fW6t3wh_jfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
+                <iframe src="https://www.youtube.com/embed/fW6t3wh_jfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="video-container">
                 <!-- Link do quarto vídeo corrigido para o formato embed -->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/iX3fmgkDYvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
+                <iframe src="https://www.youtube.com/embed/iX3fmgkDYvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
-    </main>]
-    
+    </main>
 </body>
 </html>
